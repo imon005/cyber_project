@@ -28,4 +28,4 @@ sudo hydra -L user.txt -P pass.txt -u -f 127.0.0.1 -s 5000 http-post-form '/logi
 sudo hydra -L user.txt -P pass.txt -u -f 127.0.0.1 -s 5000 http-post-form '/login:username=^USER^&password=^PASS^:Invalid credentials'
 
 
-https://youtu.be/BsminzrQKHQ?si=w1A22Be3Z4rIhK0S
+
