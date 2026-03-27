@@ -1,0 +1,200 @@
+127.0.0.1 - - [15/Jan/2026:00:40:07 +0530] "GET /dashboard HTTP/1.1" 500 -
+127.0.0.1 - - [15/Jan/2026:00:42:42 +0530] "POST /search?q=python HTTP/1.1" 403 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:40:28 +0530] "POST /search?q=python HTTP/1.1" 301 - ""
+127.0.0.1 - - [15/Jan/2026:00:52:12 +0530] "POST /products?cat=books HTTP/1.1" 302 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:45:12 +0530] "GET /about HTTP/1.1" 500 -
+127.0.0.1 - - [15/Jan/2026:00:25:50 +0530] "GET /contact HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:17:10 +0530] "GET /index.php?id=1 HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:46:15 +0530] "GET /home HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:58:36 +0530] "POST /index.php?id=1 HTTP/1.1" 302 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:38:33 +0530] "POST /login HTTP/1.1" 400 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:27:27 +0530] "GET /products?cat=books HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:01:11 +0530] "GET /profile?id=2 HTTP/1.0" 301 -
+127.0.0.1 - - [15/Jan/2026:00:54:28 +0530] "GET /search?q=<XSS_ATTEMPT> HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:29:55 +0530] "POST /dashboard HTTP/1.0" 400 - ""
+127.0.0.1 - - [15/Jan/2026:00:16:24 +0530] "POST /login HTTP/1.1" 404 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:36:44 +0530] "GET /products?cat=books HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:05:01 +0530] "GET /dashboard HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:46:31 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.0" 301 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:56:16 +0530] "GET /products?cat=books HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:22:07 +0530] "GET /index.php?id=1 HTTP/1.0" 301 -
+127.0.0.1 - - [15/Jan/2026:00:49:19 +0530] "GET /login HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:58:59 +0530] "POST /contact HTTP/1.1" 400 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:51:29 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.1" 500 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:09:22 +0530] "GET /search?q=python HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:19:22 +0530] "POST /dashboard HTTP/1.0" 403 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:47:46 +0530] "POST /api/data HTTP/1.0" 302 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:53:56 +0530] "GET /about HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:20:39 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.1" 403 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:51:16 +0530] "GET /dashboard HTTP/1.0" 403 -
+127.0.0.1 - - [15/Jan/2026:00:52:42 +0530] "GET /dashboard HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:28:27 +0530] "GET /about HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:18:56 +0530] "POST /home HTTP/1.0" 301 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:27:48 +0530] "POST /api/data HTTP/1.0" 500 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:15:16 +0530] "POST /login HTTP/1.1" 500 - ""
+127.0.0.1 - - [15/Jan/2026:00:10:56 +0530] "POST /search?q=python HTTP/1.1" 400 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:02:05 +0530] "POST /search?q=python HTTP/1.1" 302 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:44:59 +0530] "GET /api/data HTTP/1.1" 500 -
+127.0.0.1 - - [15/Jan/2026:00:27:07 +0530] "GET /index.php?id=1 HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:11:40 +0530] "GET /search?q=python HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:00:34 +0530] "GET /index.php?id=1 HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:09:00 +0530] "GET /api/data HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:28:59 +0530] "GET /about HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:15:32 +0530] "POST /products?cat=books HTTP/1.1" 400 - ""
+127.0.0.1 - - [15/Jan/2026:00:07:55 +0530] "GET /login HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:50:06 +0530] "GET /dashboard HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:25:50 +0530] "POST /dashboard HTTP/1.0" 301 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:01:20 +0530] "POST /dashboard HTTP/1.1" 400 - ""
+127.0.0.1 - - [15/Jan/2026:00:49:16 +0530] "GET /products?cat=books HTTP/1.1" 500 -
+127.0.0.1 - - [15/Jan/2026:00:30:08 +0530] "POST /index.php?id=1 HTTP/1.0" 200 - ""
+127.0.0.1 - - [15/Jan/2026:00:55:09 +0530] "GET /profile?id=2 HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:05:39 +0530] "POST /products?cat=books HTTP/1.1" 400 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:38:09 +0530] "POST /login HTTP/1.1" 301 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:34:01 +0530] "GET /dashboard HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:24:53 +0530] "GET /about HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:25:04 +0530] "GET /home HTTP/1.0" 301 -
+127.0.0.1 - - [15/Jan/2026:00:00:06 +0530] "POST /search?q=<XSS_ATTEMPT> HTTP/1.1" 400 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:52:20 +0530] "GET /index.php?id=1 HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:38:59 +0530] "GET /search?q=<XSS_ATTEMPT> HTTP/1.0" 301 -
+127.0.0.1 - - [15/Jan/2026:00:04:45 +0530] "POST /contact HTTP/1.0" 200 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:20:30 +0530] "POST /search?q=python HTTP/1.0" 404 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:09:40 +0530] "POST /profile?id=2 HTTP/1.1" 200 - ""
+127.0.0.1 - - [15/Jan/2026:00:15:17 +0530] "POST /login HTTP/1.0" 200 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:04:31 +0530] "POST /search?q=<XSS_ATTEMPT> HTTP/1.0" 302 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:29:39 +0530] "GET /contact HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:26:03 +0530] "POST /dashboard HTTP/1.1" 301 - ""
+127.0.0.1 - - [15/Jan/2026:00:17:27 +0530] "GET /dashboard HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:28:19 +0530] "POST /search?q=<XSS_ATTEMPT> HTTP/1.0" 301 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:25:27 +0530] "POST /products?cat=books HTTP/1.0" 200 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:24:17 +0530] "GET /search?q=python HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:25:09 +0530] "GET /profile?id=2 HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:14:51 +0530] "GET /index.php?id=<SQLI_ATTEMPT> HTTP/1.0" 500 -
+127.0.0.1 - - [15/Jan/2026:00:39:49 +0530] "GET /contact HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:18:12 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.1" 200 - ""
+127.0.0.1 - - [15/Jan/2026:00:26:31 +0530] "POST /profile?id=2 HTTP/1.0" 404 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:50:14 +0530] "GET /index.php?id=1 HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jan/2026:00:00:54 +0530] "GET /profile?id=2 HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:30:35 +0530] "GET /index.php?id=1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:53:15 +0530] "GET /profile?id=2 HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:01:23 +0530] "GET /api/data HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:39:52 +0530] "GET /index.php?id=1 HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:43:21 +0530] "GET /home HTTP/1.0" 301 -
+127.0.0.1 - - [15/Jan/2026:00:09:52 +0530] "GET /contact HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:07:33 +0530] "GET /home HTTP/1.1" 301 -
+127.0.0.1 - - [15/Jan/2026:00:27:06 +0530] "GET /dashboard HTTP/1.0" 403 -
+127.0.0.1 - - [15/Jan/2026:00:18:57 +0530] "POST /dashboard HTTP/1.0" 302 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:40:25 +0530] "GET /about HTTP/1.0" 500 -
+127.0.0.1 - - [15/Jan/2026:00:57:46 +0530] "POST /api/data HTTP/1.1" 400 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:17:00 +0530] "POST /products?cat=books HTTP/1.0" 500 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:23:25 +0530] "GET /index.php?id=1 HTTP/1.1" 301 -
+127.0.0.1 - - [15/Jan/2026:00:32:45 +0530] "POST /contact HTTP/1.0" 403 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:28:06 +0530] "GET /login HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:22:54 +0530] "GET /products?cat=books HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:59:39 +0530] "POST /contact HTTP/1.1" 302 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:37:17 +0530] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jan/2026:00:30:13 +0530] "GET /api/data HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:03:30 +0530] "POST /dashboard HTTP/1.1" 302 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:37:14 +0530] "POST /contact HTTP/1.1" 302 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:15:16 +0530] "POST /contact HTTP/1.0" 404 - ""
+127.0.0.1 - - [15/Jan/2026:00:34:23 +0530] "POST /products?cat=<SQLI_ATTEMPT> HTTP/1.0" 302 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:51:08 +0530] "POST /products?cat=books HTTP/1.0" 301 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:44:12 +0530] "GET /login HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:33:40 +0530] "POST /index.php?id=1 HTTP/1.1" 500 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:37:37 +0530] "GET /products?cat=<SQLI_ATTEMPT> HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:43:45 +0530] "GET /dashboard HTTP/1.1" 500 -
+127.0.0.1 - - [15/Jan/2026:00:09:18 +0530] "POST /contact HTTP/1.0" 404 - ""
+127.0.0.1 - - [15/Jan/2026:00:02:15 +0530] "POST /profile?id=2 HTTP/1.0" 200 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:42:15 +0530] "POST /profile?id=2 HTTP/1.0" 302 - ""
+127.0.0.1 - - [15/Jan/2026:00:24:50 +0530] "POST /api/data HTTP/1.0" 500 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:57:05 +0530] "POST /api/data HTTP/1.0" 301 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:09:42 +0530] "GET /api/data HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:05:59 +0530] "GET /profile?id=2 HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:47:33 +0530] "POST /products?cat=books HTTP/1.1" 403 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:54:14 +0530] "POST /home HTTP/1.0" 403 - ""
+127.0.0.1 - - [15/Jan/2026:00:01:40 +0530] "POST /index.php?id=1 HTTP/1.1" 302 - ""
+127.0.0.1 - - [15/Jan/2026:00:53:24 +0530] "GET /products?cat=books HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:52:19 +0530] "POST /contact HTTP/1.0" 400 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:47:00 +0530] "GET /about HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:32:55 +0530] "POST /api/data HTTP/1.0" 200 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:57:49 +0530] "POST /api/data HTTP/1.0" 301 - ""
+127.0.0.1 - - [15/Jan/2026:00:46:26 +0530] "POST /dashboard HTTP/1.0" 404 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:04:55 +0530] "POST /about HTTP/1.1" 302 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:16:44 +0530] "GET /home HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:30:50 +0530] "POST /index.php?id=1 HTTP/1.0" 400 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:16:14 +0530] "POST /login HTTP/1.1" 500 - ""
+127.0.0.1 - - [15/Jan/2026:00:33:14 +0530] "GET /login HTTP/1.0" 500 -
+127.0.0.1 - - [15/Jan/2026:00:17:43 +0530] "POST /login HTTP/1.0" 403 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:33:47 +0530] "GET /dashboard HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:15:09 +0530] "POST /index.php?id=1 HTTP/1.1" 403 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:00:56 +0530] "GET /contact HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:37:11 +0530] "POST /contact HTTP/1.1" 200 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:13:05 +0530] "POST /profile?id=2 HTTP/1.0" 400 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:05:51 +0530] "POST /home HTTP/1.0" 404 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:50:45 +0530] "GET /profile?id=2 HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:21:15 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.1" 302 - ""
+127.0.0.1 - - [15/Jan/2026:00:42:14 +0530] "POST /dashboard HTTP/1.0" 500 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:28:18 +0530] "POST /profile?id=<XSS_ATTEMPT> HTTP/1.0" 500 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:28:02 +0530] "POST /home HTTP/1.0" 403 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:33:40 +0530] "GET /products?cat=books HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:27:50 +0530] "POST /products?cat=books HTTP/1.1" 404 - ""
+127.0.0.1 - - [15/Jan/2026:00:08:33 +0530] "GET /index.php?id=<SQLI_ATTEMPT> HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:35:12 +0530] "GET /search?q=python HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:37:25 +0530] "GET /index.php?id=1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:28:05 +0530] "GET /profile?id=2 HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:55:02 +0530] "POST /api/data HTTP/1.1" 500 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:13:29 +0530] "GET /profile?id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:32:34 +0530] "GET /about HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:07:47 +0530] "POST /login HTTP/1.1" 301 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:41:08 +0530] "POST /products?cat=books HTTP/1.1" 302 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:24:57 +0530] "GET /api/data HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:38:28 +0530] "POST /home HTTP/1.1" 400 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:19:12 +0530] "GET /login HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:26:58 +0530] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jan/2026:00:16:36 +0530] "GET /index.php?id=1 HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:55:34 +0530] "POST /home HTTP/1.0" 404 - ""
+127.0.0.1 - - [15/Jan/2026:00:42:43 +0530] "GET /search?q=<XSS_ATTEMPT> HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:00:09 +0530] "POST /about HTTP/1.0" 403 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:44:43 +0530] "GET /about HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:47:16 +0530] "POST /dashboard HTTP/1.0" 400 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:47:12 +0530] "GET /api/data HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:23:10 +0530] "GET /home HTTP/1.1" 301 -
+127.0.0.1 - - [15/Jan/2026:00:55:05 +0530] "POST /login HTTP/1.1" 500 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:25:16 +0530] "GET /contact HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:43:16 +0530] "POST /dashboard HTTP/1.1" 500 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:37:38 +0530] "GET /login HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:33:54 +0530] "POST /about HTTP/1.1" 200 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:02:52 +0530] "POST /profile?id=<XSS_ATTEMPT> HTTP/1.0" 400 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:19:58 +0530] "POST /about HTTP/1.0" 404 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:47:24 +0530] "GET /products?cat=books HTTP/1.1" 403 -
+127.0.0.1 - - [15/Jan/2026:00:35:46 +0530] "POST /api/data HTTP/1.1" 400 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:50:58 +0530] "GET /api/data HTTP/1.0" 403 -
+127.0.0.1 - - [15/Jan/2026:00:09:17 +0530] "GET /products?cat=books HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jan/2026:00:58:25 +0530] "POST /api/data HTTP/1.0" 302 - ""
+127.0.0.1 - - [15/Jan/2026:00:10:08 +0530] "GET /index.php?id=<SQLI_ATTEMPT> HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jan/2026:00:19:54 +0530] "GET /home HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:38:23 +0530] "POST /dashboard HTTP/1.0" 400 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:48:52 +0530] "POST /login HTTP/1.1" 400 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:30:38 +0530] "POST /about HTTP/1.1" 403 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:36:35 +0530] "GET /api/data HTTP/1.1" 302 -
+127.0.0.1 - - [15/Jan/2026:00:57:06 +0530] "POST /contact HTTP/1.0" 500 - ""
+127.0.0.1 - - [15/Jan/2026:00:10:43 +0530] "POST /index.php?id=1 HTTP/1.1" 301 - ""
+127.0.0.1 - - [15/Jan/2026:00:35:16 +0530] "GET /dashboard HTTP/1.0" 302 -
+127.0.0.1 - - [15/Jan/2026:00:16:04 +0530] "POST /profile?id=2 HTTP/1.1" 302 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:42:26 +0530] "POST /home HTTP/1.0" 200 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:59:16 +0530] "POST /search?q=python HTTP/1.1" 500 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:59:17 +0530] "GET /contact HTTP/1.0" 500 -
+127.0.0.1 - - [15/Jan/2026:00:40:43 +0530] "GET /profile?id=2 HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:38:19 +0530] "POST /profile?id=<XSS_ATTEMPT> HTTP/1.0" 400 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:15:04 +0530] "POST /index.php?id=1 HTTP/1.1" 404 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:28:32 +0530] "POST /contact HTTP/1.0" 301 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:30:15 +0530] "POST /api/data HTTP/1.1" 302 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:15:04 +0530] "POST /search?q=python HTTP/1.1" 301 - "username=admin&password=<SQLI_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:02:45 +0530] "POST /index.php?id=1 HTTP/1.1" 200 - "search=<XSS_ATTEMPT>"
+127.0.0.1 - - [15/Jan/2026:00:19:10 +0530] "GET /api/data HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:05:13 +0530] "GET /index.php?id=1 HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:23:30 +0530] "GET /contact HTTP/1.1" 400 -
+127.0.0.1 - - [15/Jan/2026:00:12:51 +0530] "GET /search?q=python HTTP/1.0" 400 -
+127.0.0.1 - - [15/Jan/2026:00:02:28 +0530] "POST /api/data HTTP/1.1" 404 - "input=test"
+127.0.0.1 - - [15/Jan/2026:00:14:27 +0530] "GET /products?cat=books HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2026:00:14:44 +0530] "POST /index.php?id=<SQLI_ATTEMPT> HTTP/1.0" 200 - "username=admin&password=admin"
+127.0.0.1 - - [15/Jan/2026:00:13:16 +0530] "GET /dashboard HTTP/1.0" 301 -
